@@ -242,12 +242,6 @@
       "enabled": true
     },
     {
-      "id": "mk-d",
-      "base": "d",
-      "target": "t",
-      "enabled": true
-    },
-    {
       "id": "mk-t",
       "base": "t",
       "target": "eu",
