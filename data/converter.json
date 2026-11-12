@@ -1,0 +1,271 @@
+{
+  "rules": [
+    {
+      "id": "m-mvbr0hinbmp5",
+      "roman": "a",
+      "script": "a",
+      "note": "Yuran A",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hin2k8y",
+      "roman": "ae",
+      "script": "b",
+      "note": "Yuran Ae",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hin3uvn",
+      "roman": "ch",
+      "script": "c",
+      "note": "Yuran Ch",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hin1vdq",
+      "roman": "eo",
+      "script": "d",
+      "note": "Yuran Eo",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hinyyxc",
+      "roman": "e",
+      "script": "e",
+      "note": "Yuran E",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hinilcl",
+      "roman": "ye",
+      "script": "f",
+      "note": "Yuran Ye",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hinozbb",
+      "roman": "ng",
+      "script": "g",
+      "note": "Yuran Ng",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hin8co1",
+      "roman": "h",
+      "script": "h",
+      "note": "Yuran H",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hin4am7",
+      "roman": "i",
+      "script": "i",
+      "note": "Yuran I",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hinclou",
+      "roman": "j",
+      "script": "j",
+      "note": "Yuran J",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hinoyj2",
+      "roman": "g",
+      "script": "k",
+      "note": "Yuran g/k",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hin8sxa",
+      "roman": "wa",
+      "script": "l",
+      "note": "Yuran Wa",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hin8jbh",
+      "roman": "m",
+      "script": "m",
+      "note": "Yuran M",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hinttrf",
+      "roman": "n",
+      "script": "n",
+      "note": "Yuran N",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hinloza",
+      "roman": "o",
+      "script": "o",
+      "note": "Yuran O",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hindvrv",
+      "roman": "b",
+      "script": "p",
+      "note": "Yuran b/p",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hinf1ie",
+      "roman": "k",
+      "script": "q",
+      "note": "Yuran K",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hingv5l",
+      "roman": "r",
+      "script": "r",
+      "note": "Yuran r/l",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hin9xcd",
+      "roman": "s",
+      "script": "s",
+      "note": "Yuran S",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hinz7v3",
+      "roman": "d",
+      "script": "t",
+      "note": "Yuran d/t",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hin6cdc",
+      "roman": "u",
+      "script": "u",
+      "note": "Yuran u",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hin8tgq",
+      "roman": "yu",
+      "script": "v",
+      "note": "Yuran Yu",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hinsly5",
+      "roman": "yeo",
+      "script": "w",
+      "note": "Yuran Yeo",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hinqsm3",
+      "roman": "t",
+      "script": "x",
+      "note": "Yuran t/eu",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hinahhl",
+      "roman": "ya",
+      "script": "y",
+      "note": "Yuran ya",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbr0hingzcv",
+      "roman": "oe",
+      "script": "z",
+      "note": "Yuran Oe",
+      "enabled": true
+    },
+    {
+      "id": "m-mvbsevsz27st",
+      "enabled": true,
+      "roman": "v",
+      "script": "l",
+      "note": "Yuran Wa/v"
+    },
+    {
+      "id": "m-mvbsfib27pby",
+      "enabled": true,
+      "roman": "w",
+      "script": "l",
+      "note": "Yuran Wa/w"
+    },
+    {
+      "id": "m-mvbsikvwsov4",
+      "enabled": true,
+      "roman": "l",
+      "script": "r",
+      "note": "Yuran L"
+    },
+    {
+      "id": "m-mvbskjpfdrvx",
+      "enabled": true,
+      "roman": "eu",
+      "script": "x",
+      "note": "Yuran T/eu"
+    },
+    {
+      "id": "m-mvbsq6rvd27f",
+      "enabled": true,
+      "roman": "p",
+      "script": "p",
+      "note": "Yuran P/b"
+    },
+    {
+      "id": "m-mvbssqg2bnrv",
+      "enabled": true,
+      "roman": "th",
+      "script": "x",
+      "note": "Yuran T/th/eu"
+    },
+    {
+      "id": "m-mvbte3gpk5xf",
+      "enabled": true,
+      "roman": "y",
+      "script": "y",
+      "note": "Yuran Y"
+    }
+  ],
+  "symbol": "˒",
+  "symbolMode": "keep",
+  "ci": true,
+  "showMark": false,
+  "marks": [
+    {
+      "id": "mk-g",
+      "base": "g",
+      "target": "k",
+      "enabled": true
+    },
+    {
+      "id": "mk-b",
+      "base": "b",
+      "target": "p",
+      "enabled": true
+    },
+    {
+      "id": "mk-l",
+      "base": "l",
+      "target": "r",
+      "enabled": true
+    },
+    {
+      "id": "mk-d",
+      "base": "d",
+      "target": "t",
+      "enabled": true
+    },
+    {
+      "id": "mk-t",
+      "base": "t",
+      "target": "eu",
+      "enabled": true
+    }
+  ]
+}
