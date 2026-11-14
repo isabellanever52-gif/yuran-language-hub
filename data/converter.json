@@ -242,12 +242,6 @@
       "base": "g",
       "target": "k",
       "enabled": true
-    },
-    {
-      "id": "mk-b",
-      "base": "b",
-      "target": "p",
-      "enabled": true
     }
   ]
 }
