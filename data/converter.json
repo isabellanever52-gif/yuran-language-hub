@@ -216,6 +216,13 @@
       "roman": "pp",
       "script": "p",
       "note": "Yuran Pp"
+    },
+    {
+      "id": "m-mwftfwplkidk",
+      "enabled": true,
+      "roman": "f",
+      "script": "b",
+      "note": "Yuran b"
     }
   ],
   "symbol": "˒",
