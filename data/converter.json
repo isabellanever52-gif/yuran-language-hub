@@ -236,12 +236,5 @@
   "symbolMode": "keep",
   "ci": true,
   "showMark": false,
-  "marks": [
-    {
-      "id": "mk-g",
-      "base": "g",
-      "target": "k",
-      "enabled": true
-    }
-  ]
+  "marks": []
 }
