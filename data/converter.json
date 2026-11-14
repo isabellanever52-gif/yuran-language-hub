@@ -265,6 +265,13 @@
       "roman": "tt",
       "script": "t",
       "note": "Yuran Tt/t"
+    },
+    {
+      "id": "m-mwfu82x69ykq",
+      "enabled": true,
+      "roman": "th",
+      "script": "T",
+      "note": "Yuran Th"
     }
   ],
   "symbol": "˒",
