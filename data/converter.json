@@ -286,6 +286,13 @@
       "roman": "ui",
       "script": "U",
       "note": "Yuran Ui"
+    },
+    {
+      "id": "m-mwfuhmyg87z0",
+      "enabled": true,
+      "roman": "jj",
+      "script": "J",
+      "note": "Yuran Jj"
     }
   ],
   "symbol": "˒",
