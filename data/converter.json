@@ -321,6 +321,13 @@
       "roman": "wo",
       "script": "F",
       "note": "Yuran Wo"
+    },
+    {
+      "id": "m-mwfv1iag3pdr",
+      "enabled": true,
+      "roman": "yo",
+      "script": "E",
+      "note": "Yuran Yo"
     }
   ],
   "symbol": "˒",
