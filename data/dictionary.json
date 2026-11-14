@@ -70,7 +70,7 @@
       "favorite": false,
       "created": "2026-10-17T03:11:52.238Z",
       "thai": "ประเทศ",
-      "yuran": "Kuq",
+      "yuran": "guk",
       "romanization": "Guk",
       "pronunciation_th": "กุก",
       "part_of_speech": "Noun",
@@ -79,10 +79,10 @@
       "related": [],
       "notes": "",
       "status": "draft",
-      "modified": "2026-10-17T03:11:52.238Z",
+      "modified": "2026-11-14T07:27:12.124Z",
       "english": "",
       "categories": [],
-      "is_public": false
+      "is_public": true
     },
     {
       "id": "e-mvbtmzgkovwp",
