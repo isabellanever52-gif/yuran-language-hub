@@ -237,6 +237,13 @@
       "roman": "g",
       "script": "g",
       "note": "Yuran G"
+    },
+    {
+      "id": "m-mwfts1uy0eiw",
+      "enabled": true,
+      "roman": "sh",
+      "script": "S",
+      "note": "Yuran Sh/s"
     }
   ],
   "symbol": "˒",
