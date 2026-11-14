@@ -84,6 +84,17 @@ small,.note{color:var(--mut);font-size:13px}
 .glass .tbl td,.glass .tbl th{border-bottom:1.5px solid var(--glassb)}.glass .tbl th{background:transparent}
 .glass-list .tag{background:rgba(255,255,255,.35);border-color:var(--glassb)}
 @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.glass,.glass-list{background:var(--card)}}
+/* ===== dictionary card layout: Thai (small) / Yuran (large) / romanization + info (small) ===== */
+.glass-list .item{align-items:flex-start;padding:14px 16px}
+.glass-list .item .t{display:flex;flex-direction:column;gap:2px;min-width:0}
+.glass-list .item>button{align-self:flex-start;flex:0 0 auto}
+.w-th{font-size:13px;font-weight:600;color:var(--mut);line-height:1.35;letter-spacing:.01em}
+.w-yu{margin:3px 0 5px;line-height:1.2;overflow-wrap:anywhere;word-break:break-word}
+.w-yu .yu{font-size:clamp(32px,9vw,42px);line-height:1.15;color:var(--ink)}
+.w-none{font-size:12.5px;color:var(--mut)}
+.w-meta{display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;font-size:12px;color:var(--mut)}
+.w-rom{font-size:12.5px;margin-right:2px}
+.w-meta .tag{font-size:11px;padding:0 8px;margin:0}
 /* ===== balloons (smaller) ===== */
 #fx{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:30}
 .balloon{position:absolute;bottom:-90px;width:var(--s);height:calc(var(--s)*1.22);pointer-events:auto;cursor:pointer;touch-action:manipulation;animation:rise var(--d) linear forwards}
@@ -250,7 +261,7 @@ function viewDc(){
  ${canW()?'<button class="b" data-a="newe">+ เพิ่มคำ</button>':''}</div></div><div class="card glass-list">`;
  if(!S.dict.length)h+=`<div class="empty">ยังไม่มีคำศัพท์${canW()?'<br>เพิ่มคำทีละคำ หรือนำเข้าพจนานุกรมยูรันของคุณที่หน้า “คลังภาษา”':''}</div>`;
  else if(!L.length)h+=`<div class="empty">ไม่พบรายการที่ตรงกับตัวกรอง</div>`;
- else h+=L.map(e=>`<div class="item" data-a="view" data-id="${e.id}"><div class="t"><b>${esc(e.thai)||'—'}</b> &nbsp; ${e.yuran?yv(e.yuran):'<small>(ยังไม่มีรูปยูรัน)</small>'}<br><small>${esc(e.romanization)} ${e.part_of_speech?`<span class="tag">${esc(e.part_of_speech)}</span>`:''}<span class="tag">${ST[e.status]||esc(e.status)}</span></small></div>
+ else h+=L.map(e=>`<div class="item" data-a="view" data-id="${e.id}"><div class="t"><div class="w-th">${esc(e.thai)||'—'}</div><div class="w-yu">${e.yuran?yv(e.yuran):'<span class="w-none">(ยังไม่มีรูปยูรัน)</span>'}</div><div class="w-meta">${e.romanization?`<span class="w-rom">${esc(e.romanization)}</span>`:''}${e.part_of_speech?`<span class="tag">${esc(e.part_of_speech)}</span>`:''}<span class="tag">${ST[e.status]||esc(e.status)}</span></div></div>
  ${canW()?`<button class="b s" aria-label="รายการโปรด" data-a="fav" data-id="${e.id}">${e.favorite?'★':'☆'}</button>`:''}</div>`).join('');
  return h+'</div>'}
 function openModal(h){const m=$('#modal');m.innerHTML=`<div class="card${h.indexOf('<td>รหัส</td>')>-1?' glass':''}">${h}</div>`;m.classList.add('on')}
