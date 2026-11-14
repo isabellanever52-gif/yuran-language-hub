@@ -227,12 +227,6 @@
       "base": "b",
       "target": "p",
       "enabled": true
-    },
-    {
-      "id": "mk-l",
-      "base": "l",
-      "target": "r",
-      "enabled": true
     }
   ]
 }
