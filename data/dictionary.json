@@ -523,6 +523,25 @@
       "english": "",
       "categories": [],
       "is_public": false
+    },
+    {
+      "id": "e-mwhia2zrdw65",
+      "favorite": false,
+      "created": "2026-11-15T07:21:13.383Z",
+      "thai": "สวัสดี",
+      "yuran": "nijiwG",
+      "romanization": "Niji-yeong",
+      "pronunciation_th": "",
+      "part_of_speech": "",
+      "definition_th": "",
+      "examples": [],
+      "related": [],
+      "notes": "",
+      "status": "draft",
+      "english": "",
+      "categories": [],
+      "is_public": true,
+      "modified": "2026-11-15T07:21:13.382Z"
     }
   ]
 }
