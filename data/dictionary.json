@@ -19,9 +19,11 @@
       ],
       "notes": "คำนี้เป็นคำศัพท์เฉพาะของภาษาและโลกสมมติ Yuran ควรแยกความหมายระหว่างชื่อประเทศ ชื่อประชากร และชื่อภาษาให้ชัดเจนในพจนานุกรม",
       "status": "approved",
-      "modified": "2026-11-18T23:02:09.862Z",
+      "modified": "2026-11-19T09:47:02.541Z",
       "english": "Yuranese",
-      "categories": [],
+      "categories": [
+        "Country"
+      ],
       "is_public": true,
       "definition_en": "\"Hanji\" refers to Yuran; it is used to denote the country, its people, and its language. The specific meaning depends on the context, and the terms \"Yuran,\" \"Yuranese,\" or \"Hanji\" may be used according to the established conventions for referring to them"
     },
