@@ -85,15 +85,19 @@
       "romanization": "Guk",
       "pronunciation_th": "กุก",
       "part_of_speech": "Noun",
-      "definition_th": "",
+      "definition_th": "ประเทศหรือรัฐที่มีอาณาเขต ประชากร และระบบการปกครองเป็นของตนเอง มีอำนาจในการบริหารประเทศและดำเนินความสัมพันธ์กับประเทศอื่น",
       "examples": [],
       "related": [],
-      "notes": "",
-      "status": "draft",
-      "modified": "2026-11-14T07:27:12.124Z",
-      "english": "",
-      "categories": [],
-      "is_public": true
+      "notes": "คำทั่วไปที่ใช้เรียกประเทศหรือรัฐที่มีความเป็นอิสระ โดยมีดินแดน ประชากร และรัฐบาลเป็นของตนเอง",
+      "status": "approved",
+      "modified": "2026-11-19T09:51:57.351Z",
+      "english": "Country / State",
+      "categories": [
+        "Geography",
+        "Government"
+      ],
+      "is_public": true,
+      "definition_en": "A country or state that possesses its own territory, population, and system of government, and holds the authority to govern itself and conduct relations with other nations."
     },
     {
       "id": "e-mvbtmzgkovwp",
