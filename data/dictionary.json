@@ -57,16 +57,22 @@
       "romanization": "Yuran-gong-hwa-guk",
       "pronunciation_th": "ยูรัน-กง-ฮวา-กุก",
       "part_of_speech": "Noun",
-      "definition_th": "",
+      "definition_th": "ชื่ออย่างเป็นทางการของประเทศยูรัน ซึ่งปกครองในระบอบสาธารณรัฐประชาธิปไตย",
       "examples": [],
-      "related": [],
-      "notes": "",
+      "related": [
+        "Yuran",
+        "gonghwa",
+        "guk"
+      ],
+      "notes": "ชื่อทางการของประเทศคือ Republic of Yuran",
       "status": "approved",
-      "modified": "2026-11-19T09:24:59.294Z",
+      "modified": "2026-11-19T09:45:09.676Z",
       "english": "Republic of Yuran",
-      "categories": [],
+      "categories": [
+        "Country"
+      ],
       "is_public": true,
-      "definition_en": ""
+      "definition_en": "The official name of the country of Yuran, which is governed under a democratic republic system"
     },
     {
       "id": "e-mvbtlpke7u2f",
