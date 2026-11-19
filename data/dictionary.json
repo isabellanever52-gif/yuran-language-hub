@@ -87,11 +87,14 @@
       "part_of_speech": "Noun",
       "definition_th": "ประเทศหรือรัฐที่มีอาณาเขต ประชากร และระบบการปกครองเป็นของตนเอง มีอำนาจในการบริหารประเทศและดำเนินความสัมพันธ์กับประเทศอื่น",
       "examples": [],
-      "related": [],
+      "related": [
+        "Gonghwa",
+        "Guk"
+      ],
       "notes": "คำทั่วไปที่ใช้เรียกประเทศหรือรัฐที่มีความเป็นอิสระ โดยมีดินแดน ประชากร และรัฐบาลเป็นของตนเอง",
       "status": "approved",
-      "modified": "2026-11-19T09:53:17.781Z",
-      "english": "Country , State",
+      "modified": "2026-11-19T11:02:52.721Z",
+      "english": "Country",
       "categories": [
         "Geography",
         "Government"
