@@ -138,7 +138,7 @@ header::after{content:"";position:absolute;left:20px;right:20px;bottom:-13px;hei
 .w-meta{display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;font-size:12px;color:var(--mut)}
 .w-rom{font-size:12.5px;margin-right:2px}
 .w-meta .tag{font-size:11px;padding:0 8px;margin:0}
-.res{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:flex-end;background:var(--cream);border:3px dashed var(--line);border-radius:18px;padding:14px 14px 12px;min-height:64px}
+.res{margin:12px 0 6px;display:flex;flex-wrap:wrap;gap:12px 18px;align-items:flex-end;background:var(--cream);border:3px dashed var(--line);border-radius:18px;padding:14px 14px 12px;min-height:64px}
 .rc{display:inline-flex;align-items:flex-end;gap:8px}
 .rc-u{display:inline-flex;flex-direction:column;align-items:center;gap:1px;min-width:0}
 .rc-big{font-weight:600;font-size:clamp(26px,7.6vw,32px);line-height:1.15;overflow-wrap:anywhere;text-align:center}
@@ -287,17 +287,19 @@ function translate(text,d){
 }
 function viewTr(){
  const th=dir==='th2yu';
+ let resBlock='',copyBtn='';
+ if(T&&T.status!=='empty'){const R=T;
+  const bigf=x=>R.d==='th2yu'?yv(x):esc(x);
+  const disp=R.toks.map(t=>t.u?`<span class="rc"><span class="rc-big unk">${esc(t.src)}</span><span class="rc-rd">?</span></span>`:t.p?(/\s/.test(t.src)?'':`<span class="rc-p">${esc(t.src)}</span>`):`<span class="rc">${t.alts.map((a,i)=>`${i?'<span class="rc-sl">/</span>':''}<span class="rc-u"><span class="rc-big${R.d==='th2yu'?' is-yu':''}">${bigf(a.txt)}</span>${a.rd?`<span class="rc-rd">${esc(a.rd)}</span>`:''}</span>`).join('')}</span>`).join('');
+ resBlock=`<div class="res">${disp}</div>`;copyBtn='<button class="b s" data-a="cp">คัดลอกผลลัพธ์</button>'}
  let h=`<div class="card"><h2>เครื่องแปล</h2><div class="row"><b>${th?(LG()==='en'?'อังกฤษ → ยูรัน':'ไทย → ยูรัน'):(LG()==='en'?'ยูรัน → อังกฤษ':'ยูรัน → ไทย')}</b><button class="b s" data-a="swap">สลับทิศทาง</button></div>
- <label for="tin">ข้อความ${th?(LG()==='en'?'ภาษาอังกฤษ':'ภาษาไทย'):'ภาษายูรัน'}</label><textarea id="tin" ${th?'':'class="yu"'} placeholder="พิมพ์ข้อความที่นี่">${esc(tIn)}</textarea>
- <div class="row"><button class="b" data-a="go">แปล</button><button class="b s" data-a="clr">ล้าง</button></div>
+ <label for="tin">ข้อความ${th?(LG()==='en'?'ภาษาอังกฤษ':'ภาษาไทย'):'ภาษายูรัน'}</label><textarea id="tin" ${th?'':'class="yu"'} placeholder="พิมพ์ข้อความที่นี่">${esc(tIn)}</textarea>${resBlock}
+ <div class="row"><button class="b" data-a="go">แปล</button><button class="b s" data-a="clr">ล้าง</button>${copyBtn}</div>
  <p class="note">แปลจากคำศัพท์ที่${S.settings.useDraft?'อนุมัติแล้วและฉบับร่าง':'อนุมัติแล้วเท่านั้น'}ในพจนานุกรมของคุณ ระบบไม่เดาหรือสร้างคำเอง</p></div>`;
  if(T){const R=T,lab={complete:['แปลครบถ้วน','ok'],partial:['แปลได้บางส่วน','warn'],none:['ยังแปลไม่ได้ ไม่พบคำในพจนานุกรม','bad'],empty:['ไม่มีข้อความให้แปล','bad']}[R.status];
   h+=`<div class="card"><h3 class="${lab[1]}">${lab[0]}</h3>`;
   if(R.status!=='empty'){
-  const bigf=x=>R.d==='th2yu'?yv(x):esc(x);
-  const disp=R.toks.map(t=>t.u?`<span class="rc"><span class="rc-big unk">${esc(t.src)}</span><span class="rc-rd">?</span></span>`:t.p?(/\s/.test(t.src)?'':`<span class="rc-p">${esc(t.src)}</span>`):`<span class="rc">${t.alts.map((a,i)=>`${i?'<span class="rc-sl">/</span>':''}<span class="rc-u"><span class="rc-big${R.d==='th2yu'?' is-yu':''}">${bigf(a.txt)}</span>${a.rd?`<span class="rc-rd">${esc(a.rd)}</span>`:''}</span>`).join('')}</span>`).join('');
-  h+=`<div class="res">${disp}</div><div class="row"><button class="b s" data-a="cp">คัดลอกผลลัพธ์</button></div>
-  <p class="note">คำที่ไม่พบจะคัดลอกในรูป [?คำ] ตัวอักษรอื่นคงเดิมตามที่เก็บไว้ ช่องว่างและเครื่องหมายคงตามต้นฉบับ ไม่มีการเติมช่องว่างตามกฎที่ไม่ได้กำหนดไว้</p>`;
+  h+=`<p class="note">คำที่ไม่พบจะคัดลอกในรูป [?คำ] ตัวอักษรอื่นคงเดิมตามที่เก็บไว้ ช่องว่างและเครื่องหมายคงตามต้นฉบับ ไม่มีการเติมช่องว่างตามกฎที่ไม่ได้กำหนดไว้</p>`;
   h+=`<h3>แยกคำที่ระบบรู้จัก</h3><table class="tbl"><tr><th>ต้นฉบับ</th><th>ผลลัพธ์</th><th>รายการในพจนานุกรม</th></tr>`;
   R.toks.filter(t=>!t.p).forEach(t=>{h+=t.u?`<tr><td>${esc(t.src)}</td><td class="bad">ไม่พบ</td><td>${canW()?'<button class="b s" data-a="addw" data-w="'+esc(t.src)+'">เพิ่มคำนี้</button>':''}</td></tr>`
    :`<tr><td>${esc(t.src)}</td><td>${t.alts.map(a=>R.d==='th2yu'?yv(a.txt):esc(a.txt)).join(' / ')}</td><td>${t.es.map(e=>`<a href="#" data-a="view" data-id="${e.id}">${esc(e.id.slice(0,8))}</a> <span class="tag">${ST[e.status]||esc(e.status)}</span>`).join(' ')}</td></tr>`});
