@@ -212,17 +212,18 @@
       "thai": "พวกเรา",
       "yuran": "Nara",
       "romanization": "Na-ra",
-      "pronunciation_th": "นารา",
+      "pronunciation_th": "นารา / นาระ",
       "part_of_speech": "Pronouns",
       "definition_th": "",
       "examples": [],
       "related": [],
       "notes": "",
-      "status": "draft",
-      "modified": "2026-10-17T03:22:33.763Z",
-      "english": "",
+      "status": "approved",
+      "modified": "2026-11-22T07:30:24.753Z",
+      "english": "We , us",
       "categories": [],
-      "is_public": false
+      "is_public": true,
+      "definition_en": ""
     },
     {
       "id": "e-mvbu051892x5",
