@@ -146,7 +146,7 @@
       "id": "e-mvbtv1y8cowo",
       "favorite": false,
       "created": "2026-10-17T03:19:08.192Z",
-      "thai": "ฉัน",
+      "thai": "ฉัน / เค้า / เรา",
       "yuran": "Nal",
       "romanization": "Na-wa",
       "pronunciation_th": "นา-วา / นา-วะ",
@@ -158,11 +158,12 @@
         "Na-wa"
       ],
       "notes": "",
-      "status": "draft",
-      "modified": "2026-10-17T03:19:08.192Z",
-      "english": "",
+      "status": "approved",
+      "modified": "2026-11-22T07:13:57.519Z",
+      "english": "I, me",
       "categories": [],
-      "is_public": false
+      "is_public": true,
+      "definition_en": ""
     },
     {
       "id": "e-mvbtwhqjux4g",
