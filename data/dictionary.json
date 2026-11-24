@@ -571,6 +571,26 @@
       ],
       "is_public": true,
       "modified": "2026-11-15T07:29:20.628Z"
+    },
+    {
+      "id": "e-mwuidva1pbak",
+      "favorite": false,
+      "created": "2026-11-24T09:45:10.297Z",
+      "thai": "มัน",
+      "yuran": "nugfd",
+      "romanization": "Nu-geod",
+      "pronunciation_th": "นู-ก็อด",
+      "part_of_speech": "pronoun",
+      "definition_th": "",
+      "examples": [],
+      "related": [],
+      "notes": "",
+      "status": "approved",
+      "english": "It",
+      "definition_en": "",
+      "categories": [],
+      "is_public": true,
+      "modified": "2026-11-24T09:45:10.290Z"
     }
   ]
 }
