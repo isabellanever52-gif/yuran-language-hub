@@ -71,13 +71,14 @@
       ],
       "notes": "ชื่อทางการของประเทศคือ Republic of Yuran",
       "status": "approved",
-      "modified": "2026-11-19T09:45:09.676Z",
+      "modified": "2026-11-25T23:14:37.925Z",
       "english": "Republic of Yuran",
       "categories": [
         "Country"
       ],
       "is_public": true,
-      "definition_en": "The official name of the country of Yuran, which is governed under a democratic republic system"
+      "definition_en": "The official name of the country of Yuran, which is governed under a democratic republic system",
+      "subcategory": "Proper Noun"
     },
     {
       "id": "e-mvbtlpke7u2f",
