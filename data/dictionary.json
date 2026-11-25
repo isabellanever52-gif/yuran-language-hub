@@ -46,11 +46,12 @@
       ],
       "notes": "Yuran = ชื่อประเทศ ส่วน Hanji = คำเรียกในภาษายูรันตามที่กำหนดไว้",
       "status": "approved",
-      "modified": "2026-11-18T23:06:48.412Z",
+      "modified": "2026-11-25T23:10:59.401Z",
       "english": "Yuran",
       "categories": [],
       "is_public": true,
-      "definition_en": "The name \"Yuran\" is used to refer directly to the country of Yuran."
+      "definition_en": "The name \"Yuran\" is used to refer directly to the country of Yuran.",
+      "subcategory": "Proper Noun"
     },
     {
       "id": "e-mvbtichynza1",
