@@ -9,7 +9,7 @@
       "yuran": "hanji",
       "romanization": "Han-ji",
       "pronunciation_th": "ฮันจิ",
-      "part_of_speech": "Noun",
+      "part_of_speech": "Noun / Adjective",
       "definition_th": "Hanji หมายถึงยูรัน ใช้เรียกชื่อประเทศ ชาวยูรัน และภาษายูรัน โดยความหมายที่แน่นอนขึ้นอยู่กับบริบท สามารถใช้คำว่า Yuran, Yuranese หรือ Hanji ตามรูปแบบการเรียกที่กำหนดไว้",
       "examples": [
         "ฉันชอบยูรัน"
@@ -21,13 +21,14 @@
       ],
       "notes": "คำนี้เป็นคำศัพท์เฉพาะของภาษาและโลกสมมติ Yuran ควรแยกความหมายระหว่างชื่อประเทศ ชื่อประชากร และชื่อภาษาให้ชัดเจนในพจนานุกรม",
       "status": "approved",
-      "modified": "2026-11-22T07:38:41.385Z",
+      "modified": "2026-11-25T23:16:58.259Z",
       "english": "Yuranese",
       "categories": [
         "Country"
       ],
       "is_public": true,
-      "definition_en": "\"Hanji\" refers to Yuran; it is used to denote the country, its people, and its language. The specific meaning depends on the context, and the terms \"Yuran,\" \"Yuranese,\" or \"Hanji\" may be used according to the established conventions for referring to them"
+      "definition_en": "\"Hanji\" refers to Yuran; it is used to denote the country, its people, and its language. The specific meaning depends on the context, and the terms \"Yuran,\" \"Yuranese,\" or \"Hanji\" may be used according to the established conventions for referring to them",
+      "subcategory": "Proper Noun"
     },
     {
       "id": "e-mvbta3wfsdqa",
