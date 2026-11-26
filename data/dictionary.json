@@ -181,7 +181,7 @@
       "related": [],
       "notes": "",
       "status": "approved",
-      "modified": "2026-11-26T09:37:17.538Z",
+      "modified": "2026-11-26T09:39:04.012Z",
       "english": "You",
       "categories": [],
       "is_public": true,
@@ -195,12 +195,12 @@
           "rom": "Nu-ya"
         },
         "polite": {
-          "yuran": "NuE",
+          "yuran": "NunE",
           "th": "คุณ / ท่าน",
           "rom": "Nu-nyo"
         },
         "formal": {
-          "yuran": "NuE",
+          "yuran": "NunE",
           "th": "คุณ / ท่าน",
           "rom": "Nu-nyo"
         }
