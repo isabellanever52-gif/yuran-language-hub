@@ -181,11 +181,30 @@
       "related": [],
       "notes": "",
       "status": "approved",
-      "modified": "2026-11-22T08:00:51.552Z",
+      "modified": "2026-11-26T09:37:17.538Z",
       "english": "You",
       "categories": [],
       "is_public": true,
-      "definition_en": ""
+      "definition_en": "",
+      "subcategory": "",
+      "polite_on": true,
+      "polite_forms": {
+        "casual": {
+          "yuran": "Nuy",
+          "th": "คุณ / เธอ / แก",
+          "rom": "Nu-ya"
+        },
+        "polite": {
+          "yuran": "NuE",
+          "th": "คุณ / ท่าน",
+          "rom": "Nu-nyo"
+        },
+        "formal": {
+          "yuran": "NuE",
+          "th": "คุณ / ท่าน",
+          "rom": "Nu-nyo"
+        }
+      }
     },
     {
       "id": "e-mvbtyrdc8rnt",
