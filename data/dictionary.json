@@ -142,7 +142,7 @@
       "related": [],
       "notes": "",
       "status": "approved",
-      "modified": "2026-11-26T09:18:55.021Z",
+      "modified": "2026-11-26T09:32:41.009Z",
       "english": "I / me",
       "categories": [],
       "is_public": true,
@@ -156,13 +156,13 @@
           "rom": "Na-wa"
         },
         "polite": {
-          "yuran": "",
-          "th": "",
-          "rom": ""
+          "yuran": "NarA",
+          "th": "ฉัน / กระผม / ดิฉัน / ข้าพเจ้า",
+          "rom": "Na-rae"
         },
         "formal": {
           "yuran": "NarA",
-          "th": "ฉัน / ผม / ดิฉัน",
+          "th": "ฉัน / กระผม / ดิฉัน / ข้าพเจ้า",
           "rom": "Na-rae"
         }
       }
