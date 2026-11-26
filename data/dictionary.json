@@ -142,11 +142,30 @@
       "related": [],
       "notes": "",
       "status": "approved",
-      "modified": "2026-11-22T07:08:19.106Z",
+      "modified": "2026-11-26T09:16:16.967Z",
       "english": "I / me",
       "categories": [],
       "is_public": true,
-      "definition_en": ""
+      "definition_en": "",
+      "subcategory": "",
+      "polite_on": true,
+      "polite_forms": {
+        "casual": {
+          "yuran": "Nal",
+          "th": "ฉัน / แก / เค้า",
+          "rom": "Na-wa"
+        },
+        "polite": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "formal": {
+          "yuran": "NarA",
+          "th": "ฉัน / ผม / ดิฉัน",
+          "rom": "Na-rae"
+        }
+      }
     },
     {
       "id": "e-mvbtv1y8cowo",
