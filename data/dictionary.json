@@ -85,7 +85,7 @@
       "id": "e-mvbtlpke7u2f",
       "favorite": false,
       "created": "2026-10-17T03:11:52.238Z",
-      "thai": "ประเทศ",
+      "thai": "ประเทศ / ชาติ / ประเทศชาติ / บ้านเมือง / ดินแดน / โลก",
       "yuran": "guk",
       "romanization": "Guk",
       "pronunciation_th": "กุก",
@@ -98,14 +98,15 @@
       ],
       "notes": "คำทั่วไปที่ใช้เรียกประเทศหรือรัฐที่มีความเป็นอิสระ โดยมีดินแดน ประชากร และรัฐบาลเป็นของตนเอง",
       "status": "approved",
-      "modified": "2026-11-19T11:05:02.342Z",
+      "modified": "2026-11-26T00:05:11.543Z",
       "english": "Country / State",
       "categories": [
         "Geography",
         "Government"
       ],
       "is_public": true,
-      "definition_en": "A country or state that possesses its own territory, population, and system of government, and holds the authority to govern itself and conduct relations with other nations."
+      "definition_en": "A country or state that possesses its own territory, population, and system of government, and holds the authority to govern itself and conduct relations with other nations.",
+      "subcategory": ""
     },
     {
       "id": "e-mvbtmzgkovwp",
