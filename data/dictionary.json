@@ -388,19 +388,39 @@
       "favorite": false,
       "created": "2026-10-17T03:29:57.919Z",
       "thai": "ที่นี้",
-      "yuran": "Ar˒i",
+      "yuran": "ari",
       "romanization": "A-ri",
       "pronunciation_th": "อา-รี",
-      "part_of_speech": "Location pronouns",
+      "part_of_speech": "Pronouns",
       "definition_th": "",
       "examples": [],
       "related": [],
       "notes": "",
-      "status": "draft",
-      "modified": "2026-10-17T03:29:57.919Z",
-      "english": "",
+      "status": "approved",
+      "modified": "2026-11-27T00:25:30.307Z",
+      "english": "Here",
       "categories": [],
-      "is_public": false
+      "is_public": true,
+      "definition_en": "",
+      "subcategory": "Demonstrative Pronoun of Place",
+      "polite_on": false,
+      "polite_forms": {
+        "casual": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "polite": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "formal": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        }
+      }
     },
     {
       "id": "e-mvbubc9j05oa",
