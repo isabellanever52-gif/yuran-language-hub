@@ -260,11 +260,48 @@
       "related": [],
       "notes": "",
       "status": "approved",
-      "modified": "2026-11-22T07:55:02.605Z",
+      "modified": "2026-11-27T06:12:02.093Z",
       "english": "They / Them",
       "categories": [],
       "is_public": true,
-      "definition_en": ""
+      "definition_en": "",
+      "subcategory": "",
+      "polite_on": false,
+      "polite_forms": {
+        "casual": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "polite": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "formal": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        }
+      },
+      "gender_on": true,
+      "gender_forms": {
+        "male": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "female": {
+          "yuran": "nunEra",
+          "th": "พวกหล่อน",
+          "rom": "Nu-nyo-ra"
+        },
+        "neutral": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        }
+      }
     },
     {
       "id": "e-mwuidva1pbak",
