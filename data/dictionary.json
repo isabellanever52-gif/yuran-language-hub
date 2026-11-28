@@ -824,6 +824,63 @@
       ],
       "is_public": true,
       "modified": "2026-11-15T07:29:20.628Z"
+    },
+    {
+      "id": "e-mwzthovagk8e",
+      "favorite": false,
+      "created": "2026-11-28T02:54:55.270Z",
+      "thai": "สิ่งนั้น",
+      "yuran": "agfd",
+      "romanization": "A-geod",
+      "pronunciation_th": "อา-กอด",
+      "part_of_speech": "Pronouns",
+      "definition_th": "",
+      "examples": [],
+      "related": [],
+      "notes": "",
+      "status": "approved",
+      "english": "",
+      "definition_en": "",
+      "subcategory": "Demonstrative Pronoun of Place",
+      "categories": [],
+      "is_public": true,
+      "polite_on": false,
+      "polite_forms": {
+        "casual": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "polite": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "formal": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        }
+      },
+      "gender_on": false,
+      "gender_forms": {
+        "male": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "female": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "neutral": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        }
+      },
+      "modified": "2026-11-28T02:54:55.260Z"
     }
   ]
 }
