@@ -732,20 +732,58 @@
       "id": "e-mvbuei1xg2su",
       "favorite": false,
       "created": "2026-10-17T03:34:15.525Z",
-      "thai": "1 (หนึ่ง)",
-      "yuran": "Hani",
+      "thai": "1 / หนึ่ง",
+      "yuran": "hani",
       "romanization": "Hani",
       "pronunciation_th": "ฮานิ",
-      "part_of_speech": "Numbers",
+      "part_of_speech": "Noun / Adjective",
       "definition_th": "",
       "examples": [],
       "related": [],
       "notes": "",
-      "status": "draft",
-      "modified": "2026-10-17T03:48:04.256Z",
-      "english": "",
+      "status": "approved",
+      "modified": "2026-11-28T08:28:03.485Z",
+      "english": "One",
       "categories": [],
-      "is_public": false
+      "is_public": true,
+      "definition_en": "",
+      "subcategory": "Determiner",
+      "polite_on": false,
+      "polite_forms": {
+        "casual": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "polite": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "formal": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        }
+      },
+      "gender_on": false,
+      "gender_forms": {
+        "male": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "female": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        },
+        "neutral": {
+          "yuran": "",
+          "th": "",
+          "rom": ""
+        }
+      }
     },
     {
       "id": "e-mvbufyc6n4ea",
